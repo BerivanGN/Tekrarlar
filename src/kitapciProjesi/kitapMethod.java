@@ -22,9 +22,13 @@ public class kitapMethod {
     }
 
     public static void kitapNoileKitapSilme() {
+        System.out.println("silmek istediğiniz kitabın numarasını giriniz");
+        int kitapno= scan.nextInt();
+
     }
 
     public static void tumKitaplariListeleme() {
+        System.out.println(kitapList);
     }
 
 }
